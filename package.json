@@ -1,0 +1,20 @@
+{
+  "name": "backend-ing-soft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
