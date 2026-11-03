@@ -9,7 +9,7 @@ const createTareas = (req, res) => {
 }
 
 const updateTarea = (req, res) => {
-    // req es request y res es response
+    // req es request y res es response para update
     res.status(200).json({mesg: `updateTarea ${req.params.id}`})
 }
 
